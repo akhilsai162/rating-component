@@ -1,0 +1,120 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Niconne&family=Overpass:wght@400;700&family=Tajawal:wght@500&display=swap');
+body{
+    font-family: "overpass" , "sans-serif";
+    font-size: 15px;
+    background-color: var(--VeryDarkBlue);
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+button{
+    font-family: inherit;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ :root{
+--White:hsl(0, 0%, 100%);
+--LightGrey: hsl(217, 12%, 63%);
+--MediumGrey: hsl(216, 12%, 54%);
+--DarkBlue: hsl(213, 19%, 18%);
+--VeryDarkBlue: hsl(216, 12%, 8%);
+--Orange: hsl(25, 97%, 53%)
+
+ }
+ ul{
+    list-style-type: none;
+ }
+ .container,.thankyou{
+    background-color: var(--DarkBlue);
+    border-radius: 0.625rem;
+    max-width: 400px;
+    padding: 40px;
+
+ }
+ .container img{
+    background-color: var(--MediumGrey);
+    padding: 0.5rem;
+    border-radius: 50%;
+ }
+ .container h1{
+    margin: 2px 0 1px;
+    color: var(--White);
+ }
+ .container p{
+    color: var(--LightGrey);
+    line-height: 1.8;
+ }
+ .container ul{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+ }
+ .container ul li button{
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    border-radius: 50%;
+    color: var(--White);
+    background-color: var(--MediumGrey);
+    transition: 0.3s;
+ }
+ .container ul li button:hover{
+    background-color: var(--Orange);
+    color: var(--White);
+ }
+ .container ul li button:focus{
+    background-color: rgb(192, 188, 188);
+ }
+ .container button{
+    background-color: var(--Orange);
+    width: 100%;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border: none;
+    color: var(--White);
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 0.8rem 0 0.7rem;
+ }
+ .container button:hover{
+    background-color: var(--White);
+    color: var(--Orange);
+ }
+
+ .thankyou img{
+    display: block;
+    margin: 0 auto 2rem;
+ }
+.thankyou p.grey{
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 30px;
+    color:var(--Orange);
+    padding: 0.2rem 0.5rem;
+ }
+ .thankyou{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+.thankyou h2{
+   color: var(--White);
+   margin-bottom: 1rem;
+}
+.thankyou p{
+   color: var(--LightGrey);
+   margin-bottom: 2rem;
+}
+ 
+.hidden{
+   display: none;
+}
